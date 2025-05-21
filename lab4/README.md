@@ -19,7 +19,7 @@ WantedBy=default.target
 3. После сохранения файла перезагружаем демон systemd:
 
 ```
-systemd daemon-reload
+systemctl daemon-reload
 ```
 
 И запускаем сервис:
